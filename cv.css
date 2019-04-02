@@ -85,3 +85,8 @@ pic {
 {
     width: 12px;
 }
+
+th , tr , td 
+{
+    text-align: left;
+}
