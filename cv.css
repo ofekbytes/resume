@@ -1,18 +1,17 @@
-
-body{
-    color:white;
-    background:black;
+body {
+    color: white;
+    background: black;
     font-family: "Indie Flower", Lobster;
     font-size: 32px;
 }
 
 
-.thick-green-border 
-{
+.thick-green-border {
     border-color: white;
     border-width: 10px;
     border-style: solid;
-    border-radius: 30px; /*square - using "%"*/
+    border-radius: 30px;
+    /*square - using "%"*/
 }
 
 
@@ -26,53 +25,51 @@ body{
     text-align:center;
 } */
 
-header
-{
+header {
     text-align: center;
     /* font-family: "Indie Flower"; */
 }
 
+.titlesMediumsize {
+    color: rgb(196, 196, 63);
+    text-shadow: 5px 2px 3px rgb(77, 177, 77);
+    /* yellowgreen *
+}
 
 
-footer
-{
-    color:white;
+footer {
+    color: white;
     background: blue;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
 }
 
-#title
-{
+#title {
     /* text-align: center; */
-    color:red;
+    /* color: red; */
     font-size: 32px;
     font-weight: bold;
-
 }
 
-#phone
-{
+#phone {
     /* text-align:center; */
-    color:yellowgreen;
+    color: yellowgreen;
     /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
-    font-size: 20px; 
+    font-size: 20px;
     /* font-weight: bold; */
 }
 
-#email
-{
+ /* #email { */
     /* text-align:center; */
-    color:yellow;
-    font-size: 18px; 
+    /* color: yellow; */
+    /* font-size: 18px; */
     /* font-weight: bold; */
-}
+/* }  */
 
 
-#test
-{
-    color:white;
+#test {
+    color: white;
     /* background: linear-gradient(60deg, rgb(236, 10, 10), rgb(158, 54, 54)); */
     /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
 }
@@ -81,12 +78,17 @@ pic {
     align-content: center;
 }
 
-.spaceIt
-{
+.spaceIt {
     width: 12px;
 }
 
-th , tr , td 
-{
+th,
+tr,
+td {
     text-align: left;
+}
+
+.textEmail {
+    color: rgb(230, 88, 23);
+    text-shadow: 5px 2px 3px rgb(61, 35, 175);
 }
