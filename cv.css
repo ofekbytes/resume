@@ -33,8 +33,15 @@ header {
 .titlesMediumsize {
     color: rgb(196, 196, 63);
     text-shadow: 5px 2px 3px rgb(77, 177, 77);
-    /* yellowgreen *
+    /* yellowgreen */
 }
+
+.starShine {
+    color: rgb(193, 196, 48);
+    text-shadow: 5px 2px 3px rgb(135, 153, 56);;
+}
+
+
 
 
 footer {
@@ -60,11 +67,11 @@ footer {
     /* font-weight: bold; */
 }
 
- /* #email { */
-    /* text-align:center; */
-    /* color: yellow; */
-    /* font-size: 18px; */
-    /* font-weight: bold; */
+/* #email { */
+/* text-align:center; */
+/* color: yellow; */
+/* font-size: 18px; */
+/* font-weight: bold; */
 /* }  */
 
 
