@@ -32,8 +32,15 @@ header {
 
 .titlesMediumsize {
     color: rgb(196, 196, 63);
-    text-shadow: 5px 2px 3px rgb(77, 177, 77);
+    text-shadow: 5px 2px 3px rgb(77, 177, 77);   
     /* yellowgreen */
+}
+
+
+.blkTest {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+    display: block;
 }
 
 .starShine {
