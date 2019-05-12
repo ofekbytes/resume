@@ -106,3 +106,11 @@ td {
     color: rgb(230, 88, 23);
     text-shadow: 5px 2px 3px rgb(61, 35, 175);
 }
+
+
+hr {
+    background-color: rgb(196, 196, 63);
+    border-style: none;
+    height: 2px;
+    /* text-shadow: 5px 2px 3px rgb(77, 177, 77);        */
+}
