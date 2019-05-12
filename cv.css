@@ -37,10 +37,11 @@ header {
 }
 
 
-.blkTest {
-    border: 4px dashed #20bcd5;
+.headBlock {
+    border: 4px double #20bcd5;
     padding: 10px;
     display: block;
+    border-width:12px;
 }
 
 .starShine {
@@ -109,8 +110,10 @@ td {
 
 
 hr {
-    background-color: rgb(196, 196, 63);
+    background-color: black; /* rgb(196, 196, 63);*/
     border-style: none;
-    height: 2px;
-    /* text-shadow: 5px 2px 3px rgb(77, 177, 77);        */
+    border-top-style: dashed;
+    height: 0px;
+    border-width:6px;
+    width: 15%;
 }
