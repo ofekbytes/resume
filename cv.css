@@ -6,6 +6,27 @@ body {
 }
 
 
+.wrapper {
+    /* note in used */
+}
+
+/* .showTime {
+    text-align: center;
+} */
+
+.centerIt {
+    text-align: center;
+    color:red;
+    /* border-style: dashed; */
+    border-width: 3px;
+    border-color:green;
+    color: rgb(196, 196, 63);
+    text-shadow: 5px 2px 3px rgb(77, 177, 77); 
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
 .thick-green-border {
     border-color: white;
     border-width: 10px;
@@ -42,7 +63,10 @@ header {
     padding: 10px;
     display: block;
     border-width:4px;
+    width: 98%;
 }
+
+
 
 .starShine {
     color: rgb(193, 196, 48);
