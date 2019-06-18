@@ -1,31 +1,64 @@
+
+/* wtf */
+/* #id */
+/* .class */
+
 body {
     color: white;
-    background: black;
-    font-family: "Indie Flower", Lobster;
-    font-size: 32px;
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid red;
+    padding: 1%;
 }
 
-
-.wrapper {
-    /* note in used */
+#toolbar  {
+    padding: 0%;
+    border: 1px solid red;
+    text-align: center;
 }
 
-/* .showTime {
-    text-align: center;
-} */
-
-.centerIt {
-    text-align: center;
-    color:red;
-    /* border-style: dashed; */
+#showTime {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
     border-width: 3px;
     border-color:green;
     color: rgb(196, 196, 63);
     text-shadow: 5px 2px 3px rgb(77, 177, 77); 
-    border-radius: 10px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
+        /* border-radius: 10px; */
+        /* font-family: "Times New Roman", Times, serif; */
+        /* font-size: 40px; */
+    }
+
 }
+
+
+
+#wrapper {
+    padding: 2%;   
+}
+
+.titleTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    color: blue;
+}
+
+.titleTable #myPic  {
+    align-content: center;
+    width: 20%;
+}
+
+.autoSize {
+    width:auto;
+}
+
+.titleTable #myId  {
+    width: 80%;
+}
+
 
 .thick-green-border {
     border-color: white;
@@ -35,109 +68,17 @@ body {
     /*square - using "%"*/
 }
 
-
-/* .font2
-{
-    font-family: Lobster ;
-} */
-
-/* #title , #phone 
-{
-    text-align:center;
-} */
-
-header {
-    text-align: center;
-    /* font-family: "Indie Flower"; */
-}
-
-.titlesMediumsize {
-    color: rgb(196, 196, 63);
-    text-shadow: 5px 2px 3px rgb(77, 177, 77);   
-    /* yellowgreen */
-}
-
-
-.headBlock {
-    border: 4px double #20bcd5;
-    padding: 10px;
-    display: block;
-    border-width:4px;
-    width: 98%;
-}
-
-
-
-.starShine {
-    color: rgb(193, 196, 48);
-    text-shadow: 5px 2px 3px rgb(135, 153, 56);;
-}
-
-
-
-
-footer {
-    color: white;
-    background: blue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-}
-
-#title {
-    /* text-align: center; */
-    /* color: red; */
-    font-size: 32px;
-    font-weight: bold;
-}
-
-#phone {
-    /* text-align:center; */
-    color: yellowgreen;
-    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
-    font-size: 20px;
-    /* font-weight: bold; */
-}
-
-/* #email { */
-/* text-align:center; */
-/* color: yellow; */
-/* font-size: 18px; */
-/* font-weight: bold; */
-/* }  */
-
-
-#test {
-    color: white;
-    /* background: linear-gradient(60deg, rgb(236, 10, 10), rgb(158, 54, 54)); */
-    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
-}
-
-pic {
-    align-content: center;
-}
-
-.spaceIt {
-    width: 12px;
-}
-
-th,
-tr,
-td {
+/* table {
+  } */
+  
+  /* th, td {
     text-align: left;
-}
+    padding: 8px;
+  } */
 
-.textEmail {
-    color: rgb(230, 88, 23);
-    text-shadow: 5px 2px 3px rgb(61, 35, 175);
-}
+  /* tr:nth-child(even){background-color: #f2f2f2} */
 
 
-hr {
-    background-color: black; /* rgb(196, 196, 63);*/
-    border-style: none;
-    border-top-style: dashed;
-    height: 0px;
-    border-width:6px;
-    width: 10%;
-}
+/* wtf */
+/* #id */
+/* .class */
