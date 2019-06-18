@@ -7,15 +7,24 @@ body {
     color: white;
     background-color: black;
     font-family: "Times New Roman", Times, serif;
-    border: 1px solid red;
+    border: 1px solid blue;
     padding: 1%;
+    width:auto;
+    
 }
+
+
+#wrapper {
+    padding: 2%;   
+}
+
 
 #toolbar  {
     padding: 0%;
     border: 1px solid red;
     text-align: center;
 }
+
 
 #showTime {
     color: red;
@@ -30,13 +39,19 @@ body {
         /* font-size: 40px; */
     }
 
+
+.responsiveTitle {
+    border: 1px solid red;
+    width: auto;
 }
 
 
 
-#wrapper {
-    padding: 2%;   
+.testClass{
+    border: 1px solid red;
+    width: auto;
 }
+
 
 .titleTable {
     border-collapse: collapse;
