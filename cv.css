@@ -1,4 +1,3 @@
-
 /* wtf */
 /* #id */
 /* .class */
@@ -9,17 +8,30 @@ body {
     font-family: "Times New Roman", Times, serif;
     border: 1px solid blue;
     padding: 1%;
-    width:auto;
-    
+    width: auto;
+
 }
 
 
 #wrapper {
-    padding: 2%;   
+    padding: 2%;
 }
 
+.titleResume {
+    padding: 0%;
+    border: 1px solid green;
+    text-align: center;
 
-#toolbar  {
+    font-weight: bold;
+    font-size: 40px;
+    border-width: 3px;
+    /* border-color: green; */
+    color: rgb(24, 143, 223);
+    /* text-shadow: 5px 2px 3px rgb(77, 177, 77); */
+
+}
+
+#toolbar {
     padding: 0%;
     border: 1px solid red;
     text-align: center;
@@ -31,13 +43,11 @@ body {
     font-weight: bold;
     font-size: 40px;
     border-width: 3px;
-    border-color:green;
+    border-color: green;
     color: rgb(196, 196, 63);
-    text-shadow: 5px 2px 3px rgb(77, 177, 77); 
-        /* border-radius: 10px; */
-        /* font-family: "Times New Roman", Times, serif; */
-        /* font-size: 40px; */
-    }
+    text-shadow: 5px 2px 3px rgb(77, 177, 77);
+
+}
 
 
 .responsiveTitle {
@@ -47,7 +57,7 @@ body {
 
 
 
-.testClass{
+.testClass {
     border: 1px solid red;
     width: auto;
 }
@@ -61,16 +71,16 @@ body {
     color: blue;
 }
 
-.titleTable #myPic  {
+.titleTable #myPic {
     align-content: center;
     width: 20%;
 }
 
 .autoSize {
-    width:auto;
+    width: auto;
 }
 
-.titleTable #myId  {
+.titleTable #myId {
     width: 80%;
 }
 
@@ -85,13 +95,13 @@ body {
 
 /* table {
   } */
-  
-  /* th, td {
+
+/* th, td {
     text-align: left;
     padding: 8px;
   } */
 
-  /* tr:nth-child(even){background-color: #f2f2f2} */
+/* tr:nth-child(even){background-color: #f2f2f2} */
 
 
 /* wtf */
