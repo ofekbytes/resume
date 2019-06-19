@@ -43,9 +43,16 @@
 					<td id="myPic">
 
 						<span class="autoSize">
-						<img class="thick-green-border"
-							src="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.200px.jpeg" 
-							>
+						<!-- <img class="thick-green-border" -->
+							<!-- src="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.200px.jpeg" > -->
+							
+							<picture>
+									<source srcset="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.100px.jpeg" media="(max-width: 600px)">
+									<source srcset="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.200px.jpeg" media="(max-width: 1500px)">
+									<source srcset="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.300px.jpeg">
+									<img src="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.200px.jpeg" alt="Flowers" style="width:auto;">
+						  </picture>
+
 						</span>
 						</td>
 				</tr>
