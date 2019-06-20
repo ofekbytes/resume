@@ -35,7 +35,7 @@ body {
     padding: 0%;
     border: 1px solid red;
     text-align: left;
-    font-size: 2VW;
+    font-size: 3VW;
 }
 
 
@@ -86,7 +86,7 @@ body {
 .titleTable #myId {
     width: 80%;
     padding: 10px;
-    font-size: 2VW;
+    font-size: 3VW;
 }
 
 
