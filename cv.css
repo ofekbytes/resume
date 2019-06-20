@@ -18,23 +18,23 @@ body {
 @media screen and (min-width: 300px) {
 
     body {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     #toolbar {
-        font-size:20px;
+        font-size: 35px;
     }
   }
   
   /* big width */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
 
     body {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #toolbar {
-        font-size: 30px;
+        font-size: 25x;
     }
   }
 
