@@ -14,29 +14,31 @@ body {
 
 }
 
-/* small width */
-@media screen and (min-width: 300px) {
 
+body {
+    background-color: white;
+    color: black;
+    font-size:25px;
+  }
+  
+  /* On screens that are 992px wide or less, the background color is blue */
+  @media screen and (max-width: 992px) {
     body {
-        font-size: 35px;
-    }
-
-    #toolbar {
-        font-size: 35px;
+      background-color: blue;
+      color: white;
+      font-size:20px;
     }
   }
   
-  /* big width */
-  @media screen and (max-width: 700px) {
-
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
     body {
-        font-size: 25px;
+      background-color: olive;
+      color: white;
+      font-size:15px;
     }
 
-    #toolbar {
-        font-size: 25x;
-    }
-  }
+
 
 /* font size */
 /* .fontNormal {
