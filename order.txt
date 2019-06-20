@@ -1,0 +1,15 @@
+body
+wrapper
+#toolbar
+#showTime
+.titleResume
+.responsiveTitle
+.titleTable
+.titleTable #myPic
+
+.autoSize    /////?????
+
+.titleTable #myId
+
+
+cv.css
