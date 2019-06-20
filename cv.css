@@ -30,11 +30,11 @@ body {
   @media screen and (max-width: 800px) {
 
     body {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #toolbar {
-        font-size: 40px;
+        font-size: 30px;
     }
   }
 
