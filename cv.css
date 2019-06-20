@@ -41,7 +41,9 @@ body {
 #showTime {
     color: red;
     font-weight: bold;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2VW;
+    padding: 10px;
     border-width: 3px;
     border-color: green;
     color: rgb(196, 196, 63);
