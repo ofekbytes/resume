@@ -11,18 +11,13 @@ body {
     padding: 1%;
     width: auto;
     /* font-size: */
-
+    font-size:25px;
 }
 
-
-body {
-    background-color: white;
-    color: black;
-    font-size:25px;
-  }
   
-  /* On screens that are 992px wide or less, the background color is blue */
-  @media screen and (max-width: 992px) {
+  /* On screens that are 992px wide or less, the background color is blue */ 
+  /*992px*/
+  @media screen and (max-width: 1500px) {
     body {
       background-color: blue;
       color: white;
@@ -31,9 +26,10 @@ body {
   }
   
   /* On screens that are 600px wide or less, the background color is olive */
+
   @media screen and (max-width: 600px) {
     body {
-      background-color: olive;
+      background-color: black;
       color: white;
       font-size:15px;
     }
