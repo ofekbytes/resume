@@ -2,6 +2,7 @@
 /* #id */
 /* .class */
 
+
 body {
     color: white;
     background-color: black;
@@ -9,9 +10,38 @@ body {
     border: 0px solid blue;
     padding: 1%;
     width: auto;
+    /* font-size: */
 
 }
 
+/* small width */
+@media screen and (min-width: 300px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    #toolbar {
+        font-size:20px;
+    }
+  }
+  
+  /* big width */
+  @media screen and (max-width: 800px) {
+
+    body {
+        font-size: 40px;
+    }
+
+    #toolbar {
+        font-size: 40px;
+    }
+  }
+
+/* font size */
+/* .fontNormal {
+    font-size: 40px;
+} */
 
 #wrapper {
     padding: 2%;
@@ -23,7 +53,7 @@ body {
     text-align: center;
 
     font-weight: bold;
-    font-size: 40px;
+    /* font-size: 40px; */
     border-width: 0px;
     /* border-color: green; */
     color: rgb(24, 143, 223);
@@ -35,7 +65,8 @@ body {
     padding: 0%;
     border: 0px solid red;
     text-align: left;
-    font-size: 3VW;
+    /* font-size: 3VW; */
+    /* font-size: 40px; */
 }
 
 
@@ -86,7 +117,7 @@ body {
 .titleTable #myId {
     width: 80%;
     padding: 10px;
-    font-size: 3VW;
+    /* font-size: 3VW; */
 }
 
 
