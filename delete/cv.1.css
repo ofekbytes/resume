@@ -1,0 +1,158 @@
+body {
+    color: white;
+    background: black;
+    /* font-family: "Indie Flower", Lobster; */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    border: 1px solid red;
+}
+
+
+.wrapper {
+    /* note in used */
+}
+
+div#responsiveTitle
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* #responsiveTitle table th, td {
+    text-align: center;
+    padding: 8px;
+  } */
+
+/* .showTime {
+    text-align: center;
+} */
+
+.centerIt {
+    text-align: center;
+    color:red;
+    /* border-style: dashed; */
+    border-width: 3px;
+    border-color:green;
+    color: rgb(196, 196, 63);
+    text-shadow: 5px 2px 3px rgb(77, 177, 77); 
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.thick-green-border {
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    /*square - using "%"*/
+}
+
+
+/* .font2
+{
+    font-family: Lobster ;
+} */
+
+/* #title , #phone 
+{
+    text-align:center;
+} */
+
+header {
+    text-align: center;
+    /* font-family: "Indie Flower"; */
+}
+
+.titlesMediumsize {
+    color: rgb(196, 196, 63);
+    text-shadow: 5px 2px 3px rgb(77, 177, 77);   
+    /* yellowgreen */
+}
+
+
+.headBlock {
+    border: 4px double #20bcd5;
+    padding: 10px;
+    display: block;
+    border-width:4px;
+    width: 98%;
+}
+
+
+
+.starShine {
+    color: rgb(193, 196, 48);
+    text-shadow: 5px 2px 3px rgb(135, 153, 56);;
+}
+
+
+
+
+footer {
+    color: white;
+    background: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#title {
+    /* text-align: center; */
+    /* color: red; */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#phone {
+    /* text-align:center; */
+    color: yellowgreen;
+    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+/* #email { */
+/* text-align:center; */
+/* color: yellow; */
+/* font-size: 18px; */
+/* font-weight: bold; */
+/* }  */
+
+
+#test {
+    color: white;
+    /* background: linear-gradient(60deg, rgb(236, 10, 10), rgb(158, 54, 54)); */
+    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
+}
+
+pic {
+    align-content: center;
+}
+
+.spaceIt {
+    width: 12px;
+}
+
+th,
+tr,
+td {
+    text-align: left;
+}
+
+.textEmail {
+    color: rgb(230, 88, 23);
+    text-shadow: 5px 2px 3px rgb(61, 35, 175);
+}
+
+
+hr {
+    background-color: black; /* rgb(196, 196, 63);*/
+    border-style: none;
+    border-top-style: dashed;
+    height: 0px;
+    border-width:6px;
+    width: 10%;
+}
