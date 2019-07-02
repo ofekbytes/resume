@@ -22,7 +22,7 @@
     }
 
     #showTime {
-        color: lightblue;
+        color: gray;
         font-weight: bold;
         font-style: italic;
         padding: 10px;
@@ -79,12 +79,12 @@
     
     .keyColor {
         border: 0px solid #ddd;
-        color: red;
+        color: lightblue;
     }
 
     .valueColor {
         border: 0px solid #ddd;
-        color: blue;
+        color: white;
     }
 
 }
