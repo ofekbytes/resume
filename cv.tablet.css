@@ -44,7 +44,7 @@
         /* border-color: green; */
         /* color: rgb(24, 143, 223); */
         /* text-shadow: 5px 2px 3px rgb(77, 177, 77); */
-        color: gray;
+        color: lightblue;
     }
 
 
@@ -77,6 +77,14 @@
         /* font-size: 3VW; */
     }
     
-    
+    .keyColor {
+        border: 0px solid #ddd;
+        color: red;
+    }
+
+    .valueColor {
+        border: 0px solid #ddd;
+        color: blue;
+    }
 
 }
