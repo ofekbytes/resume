@@ -22,7 +22,7 @@
     }
 
     #showTime {
-        color: gray;
+        color: white; /*gray;*/
         font-weight: bold;
         font-style: italic;
         padding: 10px;
@@ -37,8 +37,9 @@
         padding: 0%;
         border: 0px solid green;
         text-align: center;
-
         font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
         /* font-size: 40px; */
         border-width: 0px;
         /* border-color: green; */
@@ -86,5 +87,14 @@
         border: 0px solid #ddd;
         color: white;
     }
+
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: black;
+        border-width: 6px;
+        width: 100%;  
+    }
+
 
 }

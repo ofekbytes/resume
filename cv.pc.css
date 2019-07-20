@@ -94,3 +94,10 @@ testClass {
     /* font-size: 3VW; */
 }
 
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 6px;
+    width: 6%;  
+}
