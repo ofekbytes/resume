@@ -1,17 +1,21 @@
 /* */
+
+
 /* tablet */
+
+
 /* */
+
 @media screen and (max-width: 1500px) {
     body {
         background-color: navy;
         color: white;
         font-size: 20px;
+        margin: 8px;
     }
-
     wrapper {
         padding: 2%;
     }
-
     #toolbar {
         padding: 0%;
         border: 0px solid red;
@@ -20,9 +24,9 @@
         /* font-size: 3VW; */
         /* font-size: 40px; */
     }
-
     #showTime {
-        color: white; /*gray;*/
+        color: white;
+        /*gray;*/
         font-weight: bold;
         font-style: italic;
         padding: 10px;
@@ -31,8 +35,6 @@
         /* color: rgb(26, 76, 212);
         text-shadow: 4px 2px 3px rgb(161, 180, 233); */
     }
-
-
     .titleResume {
         padding: 0%;
         border: 0px solid green;
@@ -46,15 +48,22 @@
         /* color: rgb(24, 143, 223); */
         /* text-shadow: 5px 2px 3px rgb(77, 177, 77); */
         color: lightblue;
+        /*
+        * Test zone
+        */
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        /* transperet */
+        z-index: -1;
+        /* padding: 5px; */
+        /* background-color: #cae8ca; */
+        /* border: 2px solid #4CAF50; */
     }
-
-
     .responsiveTitle {
         border: 0px solid red;
         width: auto;
     }
-    
-
     .titleTable {
         border-collapse: collapse;
         border-spacing: 20;
@@ -62,39 +71,31 @@
         border: 0px solid #ddd;
         color: gray;
     }
-    
     .titleTable #myPic {
         align-content: center;
         width: 20%;
     }
-    
     .autoSize {
         width: auto;
     }
-    
     .titleTable #myId {
         width: 80%;
         padding: 10px;
         /* font-size: 3VW; */
     }
-    
     .keyColor {
         border: 0px solid #ddd;
         color: lightblue;
     }
-
     .valueColor {
         border: 0px solid #ddd;
         color: white;
     }
-
     hr {
         border-style: none;
         border-top-style: dotted;
         border-color: black;
         border-width: 6px;
-        width: 100%;  
+        width: 100%;
     }
-
-
 }
