@@ -14,7 +14,12 @@ body {
     /*black;*/
     background-color: #364f6b;
     /* white; */
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
+
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Merriweather', serif; */
+
     border: 0px solid blue;
     /* padding: 1%; */
     width: auto;
