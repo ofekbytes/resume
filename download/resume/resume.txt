@@ -9,6 +9,12 @@ task-oriented and with a high level of self-learning - technological and organiz
 Programming style: OOP (Object-oriented programming), Design Patterns, MVC (Model-view-controller), MVW ...
 
 Work Experience:
+
+2019 (Current job) - Bank Hapoalim (banking/financial company)
+As part of my job, I am doing a code analysis
+,refactor an exists code for future code technologies. 
+working with the following technologies: java client, java server (back end), rest, Web (front end), Angularjs, Angular 2.
+
 2017-2019 - Brinks Company (banking/financial company)
 As part of my job, I have developed a financial programs End To End style, using the following tools:
 java client server,  java desktop, web full stack application. 
